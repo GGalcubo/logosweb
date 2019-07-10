@@ -1,0 +1,23 @@
+/* Required height of parents of the Full Page Intro and Intro itself */
+html,
+body,
+.view {
+  height: 100%; }
+
+/* Navbar animation */
+.top-nav-collapse {
+  background-color: #1C2331; }
+
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 992px) {
+  .navbar {
+    background-color: #fff; }
+    .navbar.fixed-top.navbar-dark .navbar-brand {
+      color: #E87E04; }
+    .navbar.fixed-top.navbar-dark .navbar-nav .nav-item .nav-link {
+      color: #E87E04; }
+      .navbar.fixed-top.navbar-dark .navbar-nav .nav-item .nav-link:hover {
+        color: black; } }
+/* Footer color for sake of consistency with Navbar */
+.page-footer {
+  background-color: #1C2331; }
